@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/zipcodes",
+  "version": "1.0.0",
+  "description": "Zip Codes is a simple tool for looking up zip codes. It returns the city, state, and more of a zip code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/zipcodes-API.git"
+  },
+  "keywords": [
+    "zip codes"," zip code lookup"," zip codes api"," zip codes tool"," zip codes software"," zip codes service"," zip codes library"," zip codes sdk"," zip codes code"," zip codes script"," zip codes program"," zip codes application"," zip codes app"," zip codes utility"," zip codes helper"," zip codes helper tool"," zip codes helper software"," zip codes helper service"," zip codes helper library"," zip codes helper sdk"," zip codes helper code"," zip codes helper script"," zip codes helper program"," zip codes helper application"," zip codes helper app"," zip codes helper tool"," zip codes helper utility"," zip codes helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/zipcodes-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/zipcodes-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
