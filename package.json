@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/zipcodes-API.git"
   },
   "keywords": [
-    "zip codes"," zip code lookup"," zip codes api"," zip codes tool"," zip codes software"," zip codes service"," zip codes library"," zip codes sdk"," zip codes code"," zip codes script"," zip codes program"," zip codes application"," zip codes app"," zip codes utility"," zip codes helper"," zip codes helper tool"," zip codes helper software"," zip codes helper service"," zip codes helper library"," zip codes helper sdk"," zip codes helper code"," zip codes helper script"," zip codes helper program"," zip codes helper application"," zip codes helper app"," zip codes helper tool"," zip codes helper utility"," zip codes helper"
+    "zip codes","zip code lookup","zip codes api","zip codes tool","zip codes software"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
