@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/zipcodes",
-  "version": "1.0.2",
-  "description": "Zip Codes is a simple tool for looking up zip codes. It returns the city, state, and more of a zip code.",
+  "version": "1.0.3",
+  "description": "Zip Codes Lookup is a simple tool for looking up the zip codes of a city. It returns the zip codes of the city.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
