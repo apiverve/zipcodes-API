@@ -25,12 +25,15 @@ namespace APIVerve.API.ZipCodesLookup
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
     {
         [JsonProperty("zipcode")]
-        public long Zipcode { get; set; }
+        public long? Zipcode { get; set; }
 
         [JsonProperty("state_abbr")]
         public string StateAbbr { get; set; }
@@ -46,5 +49,17 @@ namespace APIVerve.API.ZipCodesLookup
 
         [JsonProperty("state")]
         public string State { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
